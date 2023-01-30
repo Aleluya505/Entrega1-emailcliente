@@ -17,7 +17,9 @@ header#img1{
     margin: 20px;   
 }
 .container{
-
+width: 100%;
+position: absolute;
+right: 400px;
 
 }
 
@@ -26,17 +28,22 @@ nav a{
 
 }
 h4{
+    padding: 10px;
+    margin: auto;
+    border: 3px ; 
+    width: 100%;
     background-color: black;
     color: beige;
-    text-align: center;
+    text-align:center;
 }
 .subtitulo{
-    text-align: center;
+    text-align: left;
 }
 .subtitulo dt{
     font-weight: bolder;
 }
-.subtitulo h4 dt{
-    margin-left: 100%;
+.subtitulo dt{
+    margin: auto;
+    max-width: 100%;
 
 }
