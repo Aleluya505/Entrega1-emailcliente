@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
 }
-/* estilos del banner  */
+/* estilos del banner index.html */
 div#banner{
     
     background-color: rgb(237, 236, 235);
@@ -40,41 +40,79 @@ display: inline-block;
     right: 15%;
     top: -10px;
     padding: 10%;
+    text-shadow: -1px -1px 1px;
 }
 
 /* estilos de game info*/
-
+div{
+    margin: 10px;
+}
 #titleinfo{
     text-align: center;
     padding: 50px;
     border: 20% solid transparent;
+    text-shadow: -1px -1px 1px;
+    width: 100%;
 
 }
 #textnormal{
+    padding-left: 20px;
     text-align: start;
-    margin-bottom: auto;
+    margin: 10px;
+    width: 100% ;
+}
+#text2{
+    
+padding: 10%;
+margin: 15px;
 }
 /* La tabla */
 table{
-    padding: 5% 5% 5% 5%;
+    padding: 20% 5% 5% 5%;
     table-layout: fixed;
-    background-color: rgb(233, 239, 237);
+    background-color:white;
     width: 50%;
     height: 50%;
 }
 tr{
 text-align: center;
 }
-
+th{
+    letter-spacing: 3px;
+}
 td{
 width:50%;
+letter-spacing: 1px;
 }
 
  td th{
     padding: 20%;
     margin:auto;
+   
  }
 
+
+/* estilos de rules.html */
+.textorules{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#titlerules{
+    text-align: center;
+    padding: 50px;
+    border: 20% solid transparent;
+    text-shadow: -1px -1px 1px;
+}
+#subtext{
+   font-size: 1em;
+   font-style: normal;
+   text-decoration: none; 
+
+}
+h3{
+    font-weight: bold;
+}
 
 
 
