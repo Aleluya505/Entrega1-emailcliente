@@ -17,7 +17,7 @@ object-fit: cover;
 width: 100%;
 height: 200px;
 object-position: 50% 25%;
-opacity: 70%;
+opacity: 75%;
 }
 
 .logo{
@@ -41,6 +41,8 @@ text-align: center;
 
 .maincontainer{
     display: flex;
+    padding: 0;
+    margin: 7%;
     
 }
 #menu{
@@ -54,12 +56,16 @@ text-align: center;
 }
 
 .title{
+    display: flex;
+    text-align: start;
     position: absolute;
-    text-align: center;
-    right: 15%;
-    top: -10px;
+    left: -5px;
+    top: -23px;
     padding: 10%;
-    text-shadow: -1px -1px 1px;
+    text-shadow: -1px -1px white;
+    
+
+    font-size: 12px; 
 }
 
 .contenido{
@@ -101,8 +107,9 @@ div{
 
 }
 #textnormal{
+    display: flex;
+    justify-content: center;
     font-size: 20px;
-    text-align: center;
     margin: 10px;
     width: 100% ;
     border: 5px black solid;
@@ -136,8 +143,8 @@ table{
 }
 #tabhead{
    background-color: rgb(252, 250, 218);
-    border: 1vh rgb(236, 238, 100);
-padding: 0;
+    border: 1vh rgb(236, 238, 100) solid;
+    padding: 0;
 }
 tr{
 text-align: center;
@@ -151,8 +158,8 @@ letter-spacing: 1px;
 }
 
  td th{
-    padding: 20%;
-    margin:auto;
+    padding: 10px;
+    margin: 10px;
    
  }
 
@@ -164,11 +171,15 @@ letter-spacing: 1px;
     box-sizing: border-box;
 }
 #titlerules{
-    text-align: center;
-    padding: 50px;
-    border: 20% solid transparent;
-    text-shadow: -1px -1px 1px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 10px;
+    width: 100% ;
+    border: 5px black solid;
+    background-color: rgb(250, 250, 176);
 }
+
 #subtext{
    font-size: 1em;
    font-style: normal;
@@ -184,7 +195,7 @@ h3{
     list-style-type:lower-alpha;
 }
 ol{
-    padding: 10px;
+   
     font-size:15px;
 }
 
