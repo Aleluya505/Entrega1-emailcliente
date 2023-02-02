@@ -5,10 +5,8 @@
     box-sizing: border-box;
 
 }
-/* estilos del banner  */
+/* estilos del banner index.html */
 div#banner{
-    
-    background-color: rgb(237, 236, 235);
     letter-spacing: 2px;
   
 }
@@ -17,67 +15,189 @@ display: block;
 margin:auto;
 object-fit: cover;
 width: 100%;
-height: 300px;
+height: 200px;
 object-position: 50% 25%;
-opacity: 70%;
+opacity: 75%;
 }
 
 .logo{
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: 500%;
     max-width: 100px;
     margin: 20px;   
+    right: 30px;
+    top: -70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 35% 35% 35% 35%;
 }
 .container{
 width: 100%;
+background-color: black;
+color: white;
 position: relative;
-display: inline-block;
+text-align: center;
+
+}
+
+.maincontainer{
+    display: flex;
+    padding: 0;
+    margin: 7%;
+    
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    padding: 0;
+    margin-right: 40px;
 
 
 }
+
 .title{
+    display: flex;
+    text-align: start;
     position: absolute;
-    right: 15%;
-    top: -10px;
+    left: -5px;
+    top: -23px;
     padding: 10%;
+    text-shadow: -1px -1px white;
+    
+
+    font-size: 12px; 
 }
+
+.contenido{
+    color: black;
+line-height: 1.8;
+
+}
+.subtitulo{
+    text-align: inlined;
+    margin: 10px;
+}
+/* Estilos de About */
+#texto{
+ 
+    padding: 0%;
+    font-weight: bold; 
+    font-style: italic;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+/* estilos de contact */
+
+
+
 
 /* estilos de game info*/
-
+div{
+    margin: 10px;
+}
 #titleinfo{
     text-align: center;
     padding: 50px;
     border: 20% solid transparent;
+    text-shadow: -1px -1px 1px;
+    width: 100%;
 
 }
 #textnormal{
-    text-align: start;
-    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 10px;
+    width: 100% ;
+    border: 5px black solid;
+    background-color: rgb(250, 250, 176);
 }
+#text1{
+    font-size: 1em;
+    margin: 20px;
+}
+
+#text2{    
+padding: 10%;
+margin: 15px;
+text-indent: 2px;
+margin: 10px;
+
+}
+#mail{
+   
+   text-align: end;
+}
+
+
 /* La tabla */
 table{
-    padding: 5% 5% 5% 5%;
+    padding:  5% 5% 5%;
     table-layout: fixed;
-    background-color: rgb(233, 239, 237);
-    width: 50%;
-    height: 50%;
+    background-color:white;
+    width: 100%;
+   
+}
+#tabhead{
+   background-color: rgb(252, 250, 218);
+    border: 1vh rgb(236, 238, 100) solid;
+    padding: 0;
 }
 tr{
 text-align: center;
 }
-
+th{
+    letter-spacing: 2px;
+}
 td{
 width:50%;
+letter-spacing: 1px;
 }
 
  td th{
-    padding: 20%;
-    margin:auto;
+    padding: 10px;
+    margin: 10px;
+   
  }
 
 
+/* estilos de rules.html */
+.textorules{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#titlerules{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 10px;
+    width: 100% ;
+    border: 5px black solid;
+    background-color: rgb(250, 250, 176);
+}
 
+#subtext{
+   font-size: 1em;
+   font-style: normal;
+   text-decoration: none; 
+   margin: 75px;
 
+}
+h3{
+    font-weight: bold;
+}
+
+.listap{
+    list-style-type:lower-alpha;
+}
+ol{
+   
+    font-size:15px;
+}
 
 
 
