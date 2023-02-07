@@ -35,96 +35,99 @@
                 <a href="./rules.html">Rules</a>
                 <a href="./form.html">Registration form</a>
             </div>
-
         </nav>
-        <main>
-            <h2>Registration Form</h2>
+        </div>
+ 
+    <main>
+        <h2>Registration Form</h2>
+        <br>
+        <form action="./rules.html" method="get">
+
+            <label for="name">Player's First Name: </label>
+            <input type="text" id="name" name="name">
+            <label for="lastname">Last Name: </label>
+            <input type="text" id="lastname" name="lastname">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            <label for="zipcode">Zip Code:
+            </label>
+            <input type="text" id="zipcode" name="zipcode">
+            <label for="birthday">Birth day:
+            </label>
+            <input type="date" id="birthday" name="birthday">
+            <span>Gender:</span>
+            <label for="female">Female <input type="checkbox" name="female" id="female">
+            </label>
+            <label for="male">Male <input type="checkbox" name="male" id="male">
+            </label>
             <br>
-            <form action="./rules.html" method="get">
 
-                <label for="name" id="name">Player's First Name:<input type="text" name="name">
-                </label>
-                <label for="lastname">Last Name:<input type="text" id="lastName" name="lastName">
-                </label>
-                <label for="city">City:<input type="text" id="city" name="city">
-                </label>
-                <label for="zipcode">Zip Code:<input type="text" id="zipcode" name="zipcode">
-                </label>
-                <label for="birthday">Birth day:<input type="date" id="birthday" name="birthday">
-                </label>
-<br>
-                <span>Gender:</span>
-                <label for="female">Female <input type="checkbox" name="female">
-                </label>
-                <label for="male">Male <input type="checkbox" name="male">
-                </label>
-<br>
+            <span>Grade: (Select one)</span>
+            <label for="school">
+                <input type="checkbox" value="Pre-School" id="school">Pre-School</label>
 
-                <span>Grade: (Select one)</span>
-                <label for="school">
-                    <input type="checkbox" value="Pre-School">Pre-School</label>
+            <label for="1st">
+                <input type="checkbox" value="1st" id="1st">1st</label>
 
-                <label for="school">
-                    <input type="checkbox" value="1st">1st</label>
+            <label for="2nd">
+                <input type="checkbox" value="2nd" id="2nd">2nd</label>
 
-                <label for="school">
-                    <input type="checkbox" value="2nd">2nd</label>
+            <label for="3rd">
+                <input type="checkbox" value="3rd" id="3rd">3rd</label>
 
-                <label for="school">
-                    <input type="checkbox" value="3rd">3rd</label>
+            <label for="4th">
+                <input type="checkbox" value="4th" id="4th">4th</label>
 
-                <label for="school">
-                    <input type="checkbox" value="4th">4th</label>
+            <label for="5th">
+                <input type="checkbox" value="5th" id="5th">5th</label>
 
-                <label for="school">
-                    <input type="checkbox" value="5th">5th</label>
 
-               
-<br>
-                <h4>Which elementary school do you live near?</h4>
-                <h5>Closest School:</h5>
-                <br>
+            <br>
+            <h4>Which elementary school do you live near?</h4>
+            <h5>Closest School:</h5>
+            <br>
 
-                 <label class="order">
-                    <input type="radio" value="aj katzenmaier">Aj Katzenmaier</label>
-                <label>
-                    <input type="radio" value="greenbay">Greenbay</label>
-                <label>
-                    <input type="radio" value="howard a yeager">Howard A Yeager</label>
-                <label>
-                    <input type="radio" value="marjorie p hart">Marjorie P Hart</label>
-                <label>
-                    <input type="radio" value="north elementary">North Elementary</label>
-                <label>
-                    <input type="radio" value="south elementary">South Elementary</label>
-            </form>
-            <hr>
-            <div>
-                <h4>What position(s) do you normally play? (check all that apply) </h4>
-                <h4>Uniform Size: </h4>
-                <h4>Permission to Play</h4>
-                <p> l, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
-                    the
-                    rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
-                    associated with hockey and in consideration for the "League" accepting the registrant for its
-                    hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
-                    their employees and associated personnel and volunteers,including the facilities used for
-                    practices and games, against any claim by or on behalf of the registrant as a result of the
-                    registrant's participation in the programand/orbeing transported to or from MDHL sponsored
-                    activities,which transportation.
-                    By entering your name below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso
-                    acknowledge that I have read the cancellation policy and agree to its terms.</p>
-            </div>
-            <hr>
+            <label class="order">
+                <input type="radio" value="aj katzenmaier">Aj Katzenmaier</label>
+            <label>
+                <input type="radio" value="greenbay">Greenbay</label>
+            <label>
+                <input type="radio" value="howard a yeager">Howard A Yeager</label>
+            <label>
+                <input type="radio" value="marjorie p hart">Marjorie P Hart</label>
+            <label>
+                <input type="radio" value="north elementary">North Elementary</label>
+            <label>
+                <input type="radio" value="south elementary">South Elementary</label>
+        </form>
+        <hr>
+        <div>
+            <h4>What position(s) do you normally play? (check all that apply) </h4>
+            <h4>Uniform Size: </h4>
+            <h4>Permission to Play</h4>
+            <p> l, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all
+                the
+                rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                associated with hockey and in consideration for the "League" accepting the registrant for its
+                hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
+                their employees and associated personnel and volunteers,including the facilities used for
+                practices and games, against any claim by or on behalf of the registrant as a result of the
+                registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                activities,which transportation.
+                By entering your name below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso
+                acknowledge that I have read the cancellation policy and agree to its terms.</p>
+        </div>
+        <hr>
 
-            <div>
-                <p> Parent/GuardianSignature:</p>
-                <p>Date:</p>
-            </div>
-            <div class="boton">
+        <div>
+            <p> Parent/GuardianSignature:</p>
+            <p>Date:</p>
+        </div>
+        <div class="boton">
             <input type="submit" name="enviar">
-            </div>
-        </main>
+        </div>
+
+    </main>
 </body>
 
 </html>
