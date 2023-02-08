@@ -79,7 +79,7 @@ img#img1{
 }
 /* Estilos de About */
 
-#texto{
+.texto2{
     box-sizing: border-box;
     padding: 10%;
     border: 0;
@@ -202,6 +202,12 @@ td{
 
 
 /* estilos de rules.html */
+.textorg{
+   display: flex;
+
+}
+
+
 .textorules{
     padding: 0;
     margin: 0;
